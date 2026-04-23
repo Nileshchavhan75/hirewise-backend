@@ -25,7 +25,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/blogs")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class BlogController {
 
     @Autowired
