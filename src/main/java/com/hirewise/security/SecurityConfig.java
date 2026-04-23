@@ -63,7 +63,8 @@ public class SecurityConfig {
             "http://localhost:5173",
             "http://localhost:5174",
             "http://localhost:5175",
-            "https://web-production-44bcb.up.railway.app"
+            "https://web-production-44bcb.up.railway.app",
+            "https://hirewise-frontend-green.vercel.app"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
