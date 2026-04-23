@@ -26,7 +26,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/employer-requirements")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class EmployerRequirementController {
 
     @Autowired

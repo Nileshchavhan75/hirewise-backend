@@ -26,7 +26,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/resume-submissions")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class ResumeSubmissionController {
 
     @Autowired

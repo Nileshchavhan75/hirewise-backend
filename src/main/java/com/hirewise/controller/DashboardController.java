@@ -15,7 +15,7 @@ import com.hirewise.service.DashboardService;
 
 @RestController
 @RequestMapping("/api/dashboard")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class DashboardController {
 
     @Autowired

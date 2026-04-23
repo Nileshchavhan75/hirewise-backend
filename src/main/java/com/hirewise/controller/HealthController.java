@@ -13,7 +13,7 @@ import com.hirewise.dto.ApiResponse;
 
 @RestController
 @RequestMapping("/api/health")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class HealthController {
 
     /**
