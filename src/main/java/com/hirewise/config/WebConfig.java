@@ -11,7 +11,12 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOriginPatterns("http://localhost:5173", "http://localhost:5174", "http://localhost:5175")  // ADDED PORT 5175
+                .allowedOriginPatterns(
+                    "http://localhost:5173", 
+                    "http://localhost:5174", 
+                    "http://localhost:5175",
+                    "https://web-production-44bcb.up.railway.app"  // ✅ ADD YOUR RAILWAY URL
+                )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true)
